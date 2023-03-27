@@ -1,0 +1,7 @@
+n = int(input('Введите количество элементов в массиве: '))
+x = int(input("Введите число x: "))
+A = list(range(1,n+1))
+print("Элементы массива:")
+print(A)
+count_x = A.count(x)
+print(f"Число {x} встречается в массиве {count_x} раз.")
